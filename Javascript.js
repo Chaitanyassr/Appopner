@@ -9,5 +9,7 @@ function openApp() {
   document.getElementById("demo").innerHTML = txt;
 }
 function Task(){
-	
+	<?php 
+shell_exec("whiteboard.exe")
+	?>
 }
