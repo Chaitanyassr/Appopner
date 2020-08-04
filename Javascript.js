@@ -1,6 +1,6 @@
 function myFunction() {
   var txt;
-  if (confirm("Press a button!")) {
+  if (confirm("Open the application")) {
     txt = "You pressed OK!";
   } else {
     txt = "You pressed Cancel!";
