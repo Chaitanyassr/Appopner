@@ -1,7 +1,7 @@
-function myFunction() {
+function openApp() {
   var txt;
   if (confirm("Open the application")) {
-    txt = "You pressed OK!";
+    txt = "Your application is opening!";
   } else {
     txt = "You pressed Cancel!";
   }
